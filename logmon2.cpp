@@ -148,7 +148,7 @@ int main(int argc, char const *argv[])
     curl_handle1 = curl_easy_init();
     curl_handle2 = curl_easy_init();
     int threads_num=2;
-    char *path="/home/nz/Downloads/";
+    char *path="/home//Downloads/";
     sprintf(dstruc.cookies,"%slogmoncookies.txt",path);
     getlogfilename("logs/logmon");
     //sprintf(filename,"dlogmon.txt");
